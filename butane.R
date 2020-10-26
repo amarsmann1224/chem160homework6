@@ -1,0 +1,10 @@
+Vbar=3.0
+T=370.
+R=.083145
+P=R*T/Vbar
+a=16.44
+b=.07245
+P=R*T/Vbar
+cat(P,"\n")
+P=R*T/(Vbar-b)-a/(Vbar*(Vbar+b)+b*(Vbar-b))
+cat(P,"\n")
